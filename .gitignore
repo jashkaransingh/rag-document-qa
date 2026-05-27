@@ -1,6 +1,25 @@
-.env
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Env
+.env
+.venv/
 venv/
-data/faiss_index/
+env/
+
+# RAG runtime artifacts
+store/
+*.faiss
+*.pkl
+
+# OS / editors
 .DS_Store
+.vscode/
+.idea/
+*.swp
